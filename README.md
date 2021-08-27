@@ -1,6 +1,6 @@
-Communication via REST API
+# Online Library - Communication via REST API
 
-~ client.c
+### client.c
 
 - server_conn_send:
 	- open the connection with the server
@@ -63,7 +63,7 @@ Communication via REST API
 	-> we display an error or success message
 - else: invalid command
 
-~ requests.c
+### requests.c
 
 - compute delete request:
 -> basically post, but no content
